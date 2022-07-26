@@ -5,7 +5,7 @@
 var x = 5;
 var y = 6;
 var z = x + y;
-console.log (z)
+
 
 // x, y, and z, are variables, declared with the var keyword
 // they can be used the same way as the other varaible
