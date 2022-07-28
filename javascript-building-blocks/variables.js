@@ -5,20 +5,25 @@
 var x = 5;
 var y = 6;
 var z = x + y;
-
+console.log("this is the 7th line")
+console.log(z)
 
 // x, y, and z, are variables, declared with the var keyword
 // they can be used the same way as the other varaible
 
 // x, y, and z, are variables, declared with the let keyword
-let x = 5;
-let y = 6;
-let z = x + y;
+let a = 5;
+let b = 6;
+let c = a + b;
+console.log("this is the 17th line")
+console.log(c)
 
 // x, y, and z, are undeclared variables:
-x = 5;
-y = 6;
-z = x + y;
+q = 5;
+r = 6;
+s = q + r;
+console.log("this is the 24th line")
+console.log(s)
 
 
 // x stores the value 5, y stores the value 6, z stores the value 11
