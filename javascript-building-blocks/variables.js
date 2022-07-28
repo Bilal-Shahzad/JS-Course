@@ -25,7 +25,6 @@ s = q + r;
 console.log("this is the 24th line")
 console.log(s)
 
-
 // x stores the value 5, y stores the value 6, z stores the value 11
 
 
