@@ -15,36 +15,49 @@ let s = q * r;
 console.log("this is the 14th line")
 console.log(s)
 
+
 // JavaScript Comparison Operators
 // ==	equal to
-5==5; //true
-console.log(5)
-// ===	equal value and equal type
-6==='6'; //false
-console.log(6)
-// !=	not equal
-7!=7; //false
-console.log(7)
-// !==	not equal value or not equal type
-5!=='5'; //true
-console.log(5)
-// >	greater than
-3>2; //true
-console.log(3)
-// <	less than
-4<2; //false
-console.log(4)
-// >=	greater than or equal to
-8>=8; //true
-console.log(8)
-// <=	less than or equal to
-9<=9; //true
-console.log
-// ?	ternary operator
-10 > 11 ? console.log(true) : console.log(false)
-// returns false
+let equals = (1 == 1);
+console.log(equals)
+console.log("this is for line 23")
 
-//EX!
+// ===	equal value and equal type
+let value = 6 === '6'
+console.log(value)
+ console.log("this is for line 26")
+
+ // !=	not equal
+ let nequals = 3 != 2
+console.log(3 != 2);
+console.log("this is for line 30")
+
+// !==	not equal value or not equal type
+let vequals = 5!=='5';
+console.log(vequals)
+console.log("this is for line 34")
+
+// >	greater than
+let greater = 5>4
+console.log(greater)
+console.log("this is for line 38")
+
+// <	less than
+let less =4<2; 
+console.log(less)
+console.log("this is for line 45")
+
+// >=	greater than or equal to
+let goe = 8>=8; 
+console.log (goe)
+console.log("this is for line 46")
+
+// <=	less than or equal to
+let loe = 9<=9; 
+console.log (loe)
+console.log("this is for line 50")
+
+
 
 // JavaScript Logical Operators
 // &&	logical and
