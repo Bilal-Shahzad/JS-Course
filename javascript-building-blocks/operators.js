@@ -20,49 +20,64 @@ console.log(s)
 // ==	equal to
 let equals = (1 == 1);
 console.log(equals)
-console.log("this is for line 23")
+console.log("this is for equal to")
 
 // ===	equal value and equal type
 let value = 6 === '6'
 console.log(value)
- console.log("this is for line 26")
+ console.log("this is for equal value")
 
  // !=	not equal
  let nequals = 3 != 2
 console.log(3 != 2);
-console.log("this is for line 30")
+console.log("this is for not equal")
 
 // !==	not equal value or not equal type
 let vequals = 5!=='5';
 console.log(vequals)
-console.log("this is for line 34")
+console.log("this is for not equal")
 
 // >	greater than
 let greater = 5>4
 console.log(greater)
-console.log("this is for line 38")
+console.log("this is for greater than")
 
 // <	less than
 let less =4<2; 
 console.log(less)
-console.log("this is for line 45")
+console.log("this is for less than")
 
 // >=	greater than or equal to
 let goe = 8>=8; 
 console.log (goe)
-console.log("this is for line 46")
+console.log("this is for greater than or equal to")
 
 // <=	less than or equal to
 let loe = 9<=9; 
 console.log (loe)
-console.log("this is for line 50")
+console.log("this is for less than or equal to")
 
 
 
 // JavaScript Logical Operators
 // &&	logical and
+// true if both the operands are true
+let logical = true && true;
+console.log(logical)
+console.log("this is for logical")
+
 // ||	logical or
+// true if either of the operands is true
+let logicala = true || false;
+console.log(logicala)
+console.log("this is for logicala")
+
 // !	logical not
+// true if the operand is false
+let logicaln = !true
+console.log(logicaln)
+console.log("this is for logicaln")
+
 
 // JavaScript Type Operators
 // typeof	Returns the type of a variable
