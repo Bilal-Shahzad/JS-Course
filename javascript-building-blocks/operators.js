@@ -78,7 +78,16 @@ let logicaln = !true
 console.log(logicaln)
 console.log("this is for logicaln")
 
+let g = 3;
+const h = g++;
+console.log(`x:${g}, y:${h}`);
+console.log("this is for logicaln")
 
-// JavaScript Type Operators
-// typeof	Returns the type of a variable
-// instanceof	Returns true if an object is an instance of an object type
+//  g = 3 
+
+//  g = 4 in a function 
+
+// array = []
+
+// G = 3 
+// let newG = 3++

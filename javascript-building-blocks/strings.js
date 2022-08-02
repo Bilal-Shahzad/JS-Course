@@ -21,7 +21,7 @@ let length = text.length;
 //Escape Character
 // Because strings must be written within quotes JavaScript will misunderstand this string
 // EX 
-let text = "We are the so-called "Vikings" from the north.";
+// let text = "We are the so-called "Vikings" from the north.";
 
 // The backslash (\) escape turns special characters into string characters
 //EX
