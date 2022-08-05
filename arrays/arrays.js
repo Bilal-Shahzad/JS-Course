@@ -12,7 +12,7 @@ const cars = [
     "BMW"
   ];
 
-  
+
 // You can also create an array, and then provide the elements:
 const cars = [];
 cars[0]= "Saab";
@@ -21,3 +21,11 @@ cars[2]= "BMW";
 
 // Ex: creates an Array, and assigns values to it:
 const cars = new Array("Saab", "Volvo", "BMW");
+
+
+// Changing an Array Element
+// This statement changes the value of the first element in cars
+cars[0] = "Opel";
+
+const cars = ["Saab", "Volvo", "BMW"];
+cars[0] = "Opel";
