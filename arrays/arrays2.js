@@ -47,3 +47,38 @@ console.log(fruits);
 console.log(removedItem);
 // Orange
 
+// uses the splice() method to remove the last 3 items from the fruits array.
+const fruits8 = ['Apple', 'Banana', 'Strawberry', 'Mango', 'Cherry'];
+const start = -3;
+const removedItems2 = fruits8.splice(start);
+console.log(fruits);
+// ["Apple", "Banana"]
+console.log(removedItems2);
+// ["Strawberry", "Mango", "Cherry"]
+
+// uses the splice() method to truncate the fruits array down to just its first 2 items.
+const fruits9 = ['Apple', 'Banana', 'Strawberry', 'Mango', 'Cherry'];
+const start2 = 2;
+const removedItems3 = fruits9.splice(start);
+console.log(fruits9);
+// ["Apple", "Banana"]
+console.log(removedItems3);
+// ["Strawberry", "Mango", "Cherry"]
+
+// uses the shift() method to remove the first item from the fruits array.
+const fruits10 = ['Apple', 'Banana'];
+const removedItem4 = fruits10.shift();
+console.log(fruits10);
+// ["Banana"]
+console.log(removedItem4);
+// Apple
+
+// uses the splice() method to remove the first 3 items from the fruits array
+const fruits11 = ['Apple', 'Strawberry', 'Cherry', 'Banana', 'Mango'];
+const start3 = 0;
+const deleteCount = 3;
+const removedItems5 = fruits11.splice(start, deleteCount);
+console.log(fruits11);
+// ["Banana", "Mango"]
+console.log(removedItems5);
+// ["Apple", "Strawberry", "Cherry"]
