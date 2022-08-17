@@ -10,7 +10,6 @@ const board = [
     ['r','n','b','q','k','b','n','r'] ];
   
   console.log(`${board.join('\n')}\n\n`);
-  
   // Move King's Pawn forward 2
   board[4][4] = board[6][4];
   board[6][4] = ' ';
