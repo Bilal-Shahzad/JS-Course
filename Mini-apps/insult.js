@@ -1,6 +1,6 @@
 // assigning body parts 
-var BodyParts = ['Stomach', 'Legs', 'Face', 'Back'];
+var randomBodyParts = ['Stomach', 'Legs', 'Face', 'Back'];
 
 // givinng adjectives 
-var Adjectives = ['Trash', 'Terrible', 'Stupid', 'Dumb'];
+var randomAdjectives = ['Trash', 'Terrible', 'Stupid', 'Dumb'];
 
