@@ -14,3 +14,13 @@ console.log(randomWords)
 var randomBodyPart = randomBodyParts[Math.floor(Math.random() * 4)];
 console.log(randomBodyPart)
 
+// random item for adjectives
+var randomAdjective = randomAdjectives[Math.floor(Math.random() * 4)];
+console.log(randomAdjective)
+
+// random item from randomWords
+var randomWord = randomWords[Math.floor(Math.random() * 5)];
+console.log(randomWord)
+
+console.log("Your " + randomBodyPart + " is like a " 
++ randomAdjective + " " + randomWord + "!!!");
