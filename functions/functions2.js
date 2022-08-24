@@ -14,3 +14,14 @@ let text = "The temperature is " + x + " Celsius";
 // You can use the function directly, as a variable value:
 
 let text = "The temperature is " + toCelsius(77) + " Celsius";
+
+// Local Variables
+// code here can NOT use carName
+
+function myFunction() {
+    let carName = "Honda";
+    // code here CAN use carName
+  }
+  
+  // code here can NOT use carName
+
