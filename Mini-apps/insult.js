@@ -10,7 +10,9 @@ console.log(randomAdjectives)
 var randomWords = ['Helmet', 'Fan', 'Laptop', 'Pillow', 'Bag'];
 console.log(randomWords)
 
+// Times 4 because there are 4 elements in the array 
 // choose a random item from `randomBodyParts` array and assign to `randomBodyPart`
+// The Math.random() function returns a floating-point, pseudo-random number in the range 0 to less than 1
 var randomBodyPart = randomBodyParts[Math.floor(Math.random() * 4)];
 console.log(randomBodyPart)
 
@@ -24,3 +26,4 @@ console.log(randomWord)
 
 console.log("Your " + randomBodyPart + " is like a " 
 + randomAdjective + " " + randomWord + "!!!");
+
