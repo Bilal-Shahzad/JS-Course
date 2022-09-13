@@ -24,3 +24,11 @@ console.log(h);
 
 // ++i (Pre increment): It will increment the value of i even before assigning it to the variable i.
 // i++ (Post-increment): The operator returns the variable value first  then only i value will incremented by 1.
+
+// Increment — x++ or ++x
+let a = 1;
+a++;
+++a;
+
+console.log(a++);    
+console.log(a);      
